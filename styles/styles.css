@@ -7,7 +7,7 @@
 header{
     background-image: url(/assets/img/bgHeader.png);
     height: 82.5vh;
-    background-position-x: 250px;
+    background-position-x: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,7 @@ h2{
 .padreCuarto{
     background-image: url(/assets/img/bgDown.png);
     height: 60vh;
-    background-position-x: 250px;
+    background-position-x: 50%;
     display: flex;
 }
 
@@ -155,8 +155,6 @@ footer{
 @media (max-width: 1279px){
     header{
         height: 58vh;
-        background-position-x: -235px;
-
     }
     
     .izqSegundo{
@@ -192,7 +190,6 @@ footer{
     }
 
     .padreCuarto{
-        background-position-x: -202px;
         height: 43vh;
     }
 
@@ -229,5 +226,74 @@ footer{
 
     .parrafoArriba{
         font-size: 29px;
+    }
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 45px;
+    }
+
+    .parrafoArriba{
+        font-size: 24px;
+   }
+
+   .boton1{
+    font-size: 13px;
+   }
+
+   h2{
+    font-size: 22px;
+   }
+
+   .parrafo2{
+    font-size: 13px;
+   }
+
+   .boton2{
+    font-size: 10px;
+   }
+
+   h4{
+    font-size: 22px;
+   }
+
+   .parrafo4{
+    font-size: 13px;
+   }
+
+   .boton4{
+    font-size: 13px;
+   }
+
+   .padreCuarto{
+    width: 100%;
+   }
+
+   h5{
+    font-size: 18px;
+   }
+
+   ul{
+    font-size: 13px;
+   }
+}
+
+@media (max-width: 480px){
+    h1{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    .parrafoArriba{
+        font-size: 18px;
+    }
+
+    .boton1{
+        font-size: 10px;
+    }
+
+    header{
+        width: 100%;
     }
 }
