@@ -5,7 +5,7 @@
 }
 
 header{
-    background-image: url(assets/img/bgHeader.png);
+    background-image: url(../assets/img/bgHeader.png);
     height: 82.5vh;
     background-position-x: 50%;
     display: flex;
@@ -80,7 +80,7 @@ h2{
 }
 
 .padreCuarto{
-    background-image: url(assets/img/bgDown.png);
+    background-image: url(../assets/img/bgDown.png);
     height: 60vh;
     background-position-x: 50%;
     display: flex;
