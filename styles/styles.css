@@ -63,6 +63,7 @@ h2{
     font-size: 20px;
     margin-right: 130px;
     padding-bottom: 35px;
+    text-align: justify;
 }
 
 .boton2{
@@ -102,6 +103,7 @@ h4{
     font-size: 20px;
     margin-right: 130px;
     padding-bottom: 25px;
+    text-align: justify;
 }
 
 .boton4{
@@ -165,6 +167,7 @@ footer{
     .dereSegundo {
         padding-top: 100px;
         padding-left: 20px;
+        margin-right: 10px;
     }
 
     h2{
@@ -227,6 +230,10 @@ footer{
     .parrafoArriba{
         font-size: 29px;
     }
+
+    .dereSegundo{
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 768px){
@@ -244,6 +251,10 @@ footer{
 
    h2{
     font-size: 22px;
+   }
+
+   .dereSegundo{
+    margin-right: 10px;
    }
 
    .parrafo2{
@@ -295,5 +306,103 @@ footer{
 
     header{
         width: 100%;
+        margin-top: -170px;
+    }
+
+    .padreSegundo{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .izqSegundo{
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 20px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    .parrafo2{
+        font-size: 16px;
+    }
+
+    .boton2{
+        margin-left: 90px;
+    }
+
+    .dereSegundo{
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 24px;
+    }
+
+    .padreTercero{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 10px;
+    }
+
+    .dereSegundo h2{
+        margin-right: 16px;
+    }
+
+    .dereSegundo .parrafo2{
+        margin-right: 14px;
+    }
+
+    .dereSegundo .boton2{
+        margin-left: 100px;
+    }
+
+    .padreTercero .izqSegundo{
+        padding-left: 36px;
+    }
+
+    .padreCuarto{
+        width: 100%;
+    }
+
+    .dereCuarto{
+        width: 100%;
+        margin-left: -20px;
+    }
+
+    h4{
+        font-size: 24px;
+    }
+
+    .parrafo4{
+        font-size: 17px;
+        margin-right: 20px;
+    }
+
+    .boton4{
+        margin-left: 70px;
+        font-size: 12px;
+    }
+
+    .sectionLis{
+        width: 100%;
+        padding: 70px 0px 50px 60px;;
+    }
+
+    .listF{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+
+    .listF ul{
+        font-size: 15px;
+    }
+
+    h5{
+        font-size: 20px;
     }
 }
